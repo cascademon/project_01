@@ -98,7 +98,6 @@ Airline-Customer-Satisfaction/
 ## 3️⃣ 머신러닝 모델링
 
 ### 사용 모델
-- DecisionTreeClassifier
 - RandomForestClassifier
 
 ### 진행 내용
@@ -146,7 +145,6 @@ Airline-Customer-Satisfaction/
 | 모델 | 특징 |
 |---|---|
 | Random Forest | 변수 중요도 해석 가능 |
-| DecisionTreeClassifier | // |
 
 ---
 
