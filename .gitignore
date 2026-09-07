@@ -1,0 +1,7 @@
+__pycache__/
+.pytest_cache/
+.ipynb_checkpoints/
+.venv/
+reanalysis/artifacts/
+reanalysis/results/split_ids.csv
+reanalysis/smoke-results/
