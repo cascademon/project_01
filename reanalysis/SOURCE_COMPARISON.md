@@ -1,6 +1,6 @@
 # 결과보고서·코드·재검증 대조
 
-자료: [AI_28조.pptx Google Slides](https://docs.google.com/presentation/d/1lkCz70NTFm90aFLEqleQ-xGWK0fwbQWL/edit). 2026-09-07 브라우저에서 10장 및 4월 16일 마지막 수정 표시 확인. ZIP의 동일 제목 10장 렌더를 모두 읽고 현재 10번 화면과 대조했습니다. Google 원본은 수정하지 않았습니다.
+자료: [팀 결과보고서 — 10장](https://docs.google.com/presentation/d/1lkCz70NTFm90aFLEqleQ-xGWK0fwbQWL/edit). 4월 팀 분석의 진행 과정과 9월 재검증의 평가 조건을 함께 정리했습니다.
 
 | 슬라이드 | 당시 팀 보고서 내용 | 포트폴리오 반영과 주의 |
 |---|---|---|
@@ -11,9 +11,9 @@
 | 5 | 입력78개, 타깃1개, 80/20 분할, MinMaxScaler 0~1 | 원본은 StandardScaler가 아님. 새 재검증의 83입력/60·20·20과 구분 |
 | 6 | Base/hidden/dropout/early stopping/dropout+early stopping 학습 곡선 | 팀이 구조와 과적합 양상을 비교한 과정을 보존 |
 | 7 | 팀 최적 모델: Dropout+EarlyStopping, dropout0.3, lr0.001, epochs200 설정, classification report Accuracy0.97 | 당시 팀의 선택과 보고서 기재 결과로만 인용. epochs200은 최대 설정이며 실제200회 완료 의미 아님 |
-| 8 | 데이터 전처리 함수 | 실제 함수화 시도는 인정하고, 배치별 fit 위험은 정비에서 보완 |
+| 8 | 데이터 전처리 함수 | 전처리 함수 구성. 후속 분석에서 배치별 fit에 따른 변환 불일치 보완 |
 | 9 | 기본 모델 Accuracy0.88, 미세 조정 모델0.94 기재, 표본350 | 제공 .keras 실행90.57%와 다름. 보고서와 현재 artifact의 버전/전처리/실행 상태 동일성 미확인 |
-| 10 | 추가 학습 Accuracy0.93, 미세 조정0.94 기재, 표본350 | 반올림된 당시 발표 수치. 현재 재검증91.71%/92.29%로 소급 덮어쓰지 않음 |
+| 10 | 추가 학습 Accuracy0.93, 미세 조정0.94 기재, 표본350 | 반올림된 당시 발표 수치. 9월 재검증의 추가 학습 91.71%·미세 조정 92.29%는 별도 실험으로 기록 |
 
 ## 결론
 

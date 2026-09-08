@@ -183,3 +183,7 @@ python -m reanalysis.publish_results
 - 학습 산출물은 `reanalysis/artifacts/`에 저장해 기존 저장 모델과 분리합니다.
 - 저장 scaler의 scikit-learn 버전은 1.6.1, 재검증 환경은 1.7.2입니다. 주요 변환 값의 일치를 확인한 뒤 재구성한 scaler를 사용했습니다.
 - 실행 중 TensorFlow 호환성·retracing 경고가 발생했으나 전체 실행은 종료 코드 0으로 완료됐습니다.
+
+### 개발 보조 도구
+
+9월 후속 분석에서 코드 보완과 실행 점검에 AI 도구를 활용했습니다.
